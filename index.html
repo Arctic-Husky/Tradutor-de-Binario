@@ -6,14 +6,15 @@
     <title>Tradutor</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="script.js"></script>
+    <link rel="stylesheet" href="w3.css">
 </head>
 <body>
     <div id="titulo">
-        <p>Tradutor Universal de Binario</p>
+        <p class="w3-jumbo w3-center">Tradutor Universal de Binário</p>
     </div>
-    <textarea id="linguagem" placeholder="Digite o texto aqui"></textarea>
+    <textarea class="w3-display-middle" id="linguagem" placeholder="Digite o texto aqui" cols="30" rows="8" class="w3-center"></textarea>
     <button id="enviar1" onclick="converterparabin();">Converter</button>
-    <textarea id="binario" placeholder="Digite o codigo aqui"></textarea>
+    <textarea class="w3-display-middle" id="binario" placeholder="Digite o codigo aqui (cuidado com espaços)" cols="30" rows="8" class="w3-center"></textarea>
     <button id="enviar2" onclick="converterparaling();">Converter</button>
 </body>
 </html>
