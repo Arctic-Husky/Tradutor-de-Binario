@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+body{
+    background:#000000e8;
+}
+p{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+textarea{
+    border: 1px solid #888;
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+}#binario{
+    left: 1320px;
+ }#linguagem{
+    left: 600px;
+   }
+button {
+    background-color: ghostwhite;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}#enviar1{
+position: absolute;
+    left: 528px;
+    top: 600px;
+     font-weight: 700;
+    border-radius: 5px;
+    transition: 500ms;
+    background-color: #71998e;
+
+}#enviar1:hover{
+    color: white;
+    font-weight: 700;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif");
+  }
+#enviar2{
+position: absolute;
+    left: 1248px;
+    top: 600px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 500ms;
+    background-color: #a1787c;
+}#enviar2:hover{
+    color:white;
+    font-weight:700;
+    background-image: url("https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/ilmu-pengetahuan/red-matrix.gif");
+ }
