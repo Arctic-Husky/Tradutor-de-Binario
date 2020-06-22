@@ -11,4 +11,4 @@ Segunda versão do código, bug de tradução corrigido. O resuldado da função
 <h2>JavaScript v2.1</h2>
 Pequenas alterações em comentários e comentação de partes do código.
 <h2>JavaScript v2.2</h2>
-Remoção de códigos comentados.
+Remoção de partes do código comentados.
